@@ -39,6 +39,7 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - CSS custom properties
+- DOM manipulation
 
 ## Author
 
