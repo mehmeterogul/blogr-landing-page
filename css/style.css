@@ -423,7 +423,7 @@ body {
 .editor-image {
   padding-top: 4.75rem;
   padding-bottom: 5.75rem;
-  transform: scale(1.25);
+  transform: scale(1.15);
 }
 
 .phone-image {
@@ -432,7 +432,7 @@ body {
 
 .laptop-image {
   margin-bottom: 5.75rem;
-  transform: scale(1.45);
+  transform: scale(1.25);
 }
 
 .section__text {
@@ -688,9 +688,9 @@ body {
     grid-row-start: 1;
     grid-row-end: 2;
     position: absolute;
-    top: -5rem;
-    right: -14rem;
-    transform: scale(1.75);
+    top: 0;
+    right: -11rem;
+    transform: scale(1.5);
   }
 
   .phone-section {
@@ -708,7 +708,7 @@ body {
     position: absolute;
     top: 0rem;
     left: -13rem;
-    transform: scale(2.1);
+    transform: scale(1.5);
   }
 
   .laptop-column {
@@ -747,6 +747,19 @@ body {
 
   .footer__column {
     padding-top: 0;
+  }
+}
+
+@media only screen and (min-width: 62.5rem) {
+  .editor-image {
+    top: -5rem;
+    right: -14rem;
+    transform: scale(1.75);
+  }
+
+  .laptop-image {
+    left: -13rem;
+    transform: scale(2.1);
   }
 }
 
