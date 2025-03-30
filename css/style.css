@@ -385,6 +385,7 @@ body {
 }
 
 .main {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   gap: var(--gap-between-sections);
