@@ -46,6 +46,7 @@ html {
 }
 
 body {
+  overflow: hidden;
   font-family: var(--ff-main);
   font-weight: var(--fw-normal);
   font-style: normal;
